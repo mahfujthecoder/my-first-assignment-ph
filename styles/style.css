@@ -327,6 +327,13 @@ letter-spacing: 0%;
 text-align: left;
 }
 
+.btn-long {
+    padding: 20px 100px;
+    max-width: 1000px;
+height: 62px;
+margin: 19px 0px;
+}
+
 /* footer styles */
 .footer-section {
     margin-top: 50px;
