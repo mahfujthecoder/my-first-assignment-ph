@@ -1,0 +1,214 @@
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* shared style */
+
+.main-bg{
+    background-color:#F5F8FF ;
+}
+
+.full-size {
+    width: 80%;
+}
+.main-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-primary {
+    max-width: 240px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 36px;
+    margin: 0px 16px;
+    background-color: rgb(78, 71, 255);
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* header styles */
+
+nav {
+    background-image: url(../assets/Hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.nav-section {
+    margin: 0px 140px;
+    padding: 50px 0px;
+}
+.nav-company-name {
+    color: rgb(78, 71, 255);
+    margin: 0px 10px;
+    font-size: 34px;
+    font-weight: 900;
+    text-align: left;
+}
+
+/* banner styles */
+
+.banner-section {
+    text-align: center;
+    align-items: center;
+}
+
+.banner-heading {
+  font-size: 65px;
+  font-weight: 700;
+  width: 905;
+  height: 152px;
+  line-height: 76px;
+  letter-spacing: 0%;
+  margin: 37px 0px;
+  flex: none;
+  margin-left: 270px;
+  margin-right: 270px;
+}
+
+.banner-btn {
+    margin-top: 37px;
+    margin-bottom: 152px;
+    border: none;
+}
+
+/* action style */
+
+.action-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 120px 140px;
+}
+
+.action-text {
+    padding: 65px 0px;
+    flex-direction: row;
+    margin-right: 220px;
+}
+
+.action-heading {
+    font-size: 42px;
+    font-weight: 700px;
+    text-align: left;  
+    /* margin-right: 220px; */
+}
+
+.action-description {
+    margin:23px 0px;
+    color: rgba(37, 36, 50, 0.5);
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.action-btn {
+ text-align: left;
+ margin-left: 0px;
+}
+
+.action-img {
+    border-radius: 48px;
+}
+
+/* user styles */
+
+.user-section {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center; 
+background-color: rgba(78, 71, 255, 0.1);
+border-radius:  24px; ;
+padding: 50px 80px 50px 80px;
+margin: 116px 169px 116px 141px;
+}
+
+.user-heading {
+    text-align: center;
+    font-size: 38px;
+    font-weight: 700px;
+    margin: 0px 9px;
+    color: rgb(37, 36, 50);
+}
+
+.user-rate {
+    margin:40px 142px 50px 142px;
+    display: flex;
+    justify-content: space-between;
+    gap: 158;
+}
+
+.use-heading {
+    color: rgb(78, 71, 255);
+font-family: Inter;
+font-size: 80px;
+margin-bottom: 2px;
+}
+
+.user-no , .sess-no{
+    margin-right: 158px;
+}
+.no-description , .rate-description, .sess-description {
+    margin: 0px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+/* touch style */
+.touch-section {
+display: flex;
+flex-direction: center;
+gap: 233;
+justify-content: space-between;
+margin: 95px 150px 0px 150px;
+padding: 0px 71px;
+}
+
+.touch-section-title {
+    color: rgb(0, 0, 0);
+font-family: Raleway;
+font-size: 97px;
+font-weight: 700;
+text-align: left;
+margin: 130px 115px 100px 0px;
+margin-bottom: 40px;
+}
+
+input, textarea {
+    gap: 10;
+padding: 20px 32px 20px 32px;
+margin: 10px 0px;
+box-sizing: border-box;
+border: 1px solid rgb(214, 221, 237);
+border-radius: 10px;
+width: 370px;
+height: 70px;
+background: rgb(255, 255, 255);
+}
+
+label{
+    color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 18px;
+font-weight: 500;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+}
