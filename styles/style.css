@@ -34,10 +34,7 @@
     cursor: pointer;
 }
 
-.btn-primary:hover {
-    background-color: #00a2ff;
-    
-}
+
 * {
     margin: 0px;
     padding: 0px;
